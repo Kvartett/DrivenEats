@@ -117,7 +117,7 @@ function sendMessage() {
     const address = prompt("Qual o endereço da entrega?")
 
     let cell = "5541996835387"
-    let text = `Olá, gostaria de fazer o pedido:\n - Prato: ${foodSelected}\n - Bebida: ${drinkSelected}\n - Sobremesa: ${dessertSelected}\n Total: R$ ${totalValue.innerText}\n\n Nome: ${name}\n Endereço: ${address}`;
+    let text = `Olá, gostaria de fazer o pedido:\n - Prato: ${foodSelected}\n - Bebida: ${drinkSelected}\n - Sobremesa: ${dessertSelected}\n Total: ${totalValue.innerText}\n\n Nome: ${name}\n Endereço: ${address}`;
 
     text = window.encodeURIComponent(text);
 
