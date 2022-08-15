@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     justify-content: center;
     position: fixed;
+    box-shadow: 2px 5px 5px gray;
     top: 0;
     left: auto;
     z-index: 1;
@@ -98,6 +99,7 @@ body {
     margin-right: 16px;
     box-sizing: border-box;
     position: relative;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .choice img {
@@ -148,10 +150,10 @@ body {
 .selected ion-icon {
     display: flex;
     color: #32B72F;
-    font-size: 16px;
+    font-size: 20px;
     position: absolute;
-    bottom: 14.5px;
-    right: 10px;
+    bottom: 12px;
+    right: 12px;
 }
 
 .finish {
